@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<div style="text-align:center">
+  <h1>
+    Welcome Mr {{ title }}!
+  </h1>
+  <mat-toolbar color="primary">
+    <mat-toolbar-row>
+      <span>MyMaterial</span>
+
+      <span class="example-spacer"></span>
+
+      <button mat-button a routerLink="/heroes">Heroes</button>
+      <button mat-button a routerLink="/dashboard">Dashboard</button>
+      <button mat-button a routerLink="/registration">Login</button>
+    </mat-toolbar-row>
+  </mat-toolbar>
+<router-outlet></router-outlet>
+  <app-messages></app-messages>
