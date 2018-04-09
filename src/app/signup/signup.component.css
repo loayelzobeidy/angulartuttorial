@@ -29,3 +29,21 @@ nav a.active {
 .body{
   background-color: yellow
 }
+.input-form {
+  min-width: 150px;
+  max-width: 500px;
+  width: 100%;
+}
+
+.example-full-width {
+  background-color: #d2ff00;
+  max-width: 50%;
+  position: relative;
+  margin-left: 30%;
+  margin-top: 5%;
+}
+.input-form{
+  margin-top: 3%;
+  max-height: 40px;
+  font-size:15px;
+}

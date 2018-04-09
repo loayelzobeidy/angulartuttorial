@@ -1,12 +1,15 @@
 <nav>
   <a routerLink="/login">Login</a>
 </nav>
-<input matInput  placeholder="username">
+<div class="example-full-width">
+
+<input matInput class="input-form" placeholder="username">
 <br />
-<input matInput  placeholder="password">
+<input matInput class="input-form" type="password" placeholder="password">
 <br/>
-<input matInput  placeholder="first name">
+<input matInput  class="input-form"   placeholder="first name">
 <br />
-<input matInput  placeholder="last name">
+<input matInput  class="input-form"   placeholder="last name">
 <br/>
-<button mat-button (click)="signup()">Singup</button>
+<button mat-button   class="input-form" (click)="signup()">Singup</button>
+</div>
